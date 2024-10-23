@@ -4,6 +4,6 @@ h1 {
 }
 body {
     background-image: url(https://gracewatersrq.com/wp-content/uploads/2022/12/highschools-sarasota-fl.jpg);
-    height: auto;
-    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

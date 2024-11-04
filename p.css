@@ -28,19 +28,19 @@ body {
     font-size: 18px;
     line-height: 1.6;
 }
- 
- header h1 {
-    background-color: blueviolet;
-    height: 70px;
-    
+.content .first_p  {
+   display: inline-block;
+   justify-content: left;
+   background-color:red;
 }
  
-.content_img img {
+ 
+ 
+.content_img  {
   transition: transform 2s ease-out;
-  ;
 }
 
-.content_img img {
+.content_img  {
     transform: scale(1.2);
 }  
 @media (max-width:600px ) {
@@ -53,8 +53,12 @@ body {
     width: 100%;
     padding: 0;
 }
+
 .content_text {
-    padding-top: 40px;
+   padding-top: 40px;
+    align-items: center;
+    text-align: center;
+    
 }
 .content_img {
     transition: 2s ease-out;
@@ -62,6 +66,10 @@ body {
 }
 .content_img {
     transform: scale(1.1);
+}
+.content_img  img{
+    height: 280px;
+    width: 420px;
 }
 
 } 

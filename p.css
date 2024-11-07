@@ -1,12 +1,19 @@
-* { 
+/* * { 
     margin: 0;
      padding: 0;
      
-}
+} */
 
 body {
-    padding: 20px;
+    
+    background-image: url("IMG-20220829-WA0034.jpg" );
+    background-repeat: no-repeat;
+    background-size:cover;
+    backdrop-filter:blur(3px) ;
+    
+
 }
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -27,11 +34,12 @@ body {
     padding-left: 20px;
     font-size: 18px;
     line-height: 1.6;
+    background-color: rgba(252, 255, 255, 0.378);
 }
 .content .first_p  {
    display: inline-block;
    justify-content: left;
-   background-color:red;
+   
 }
  
  
@@ -42,7 +50,11 @@ body {
 
 .content_img  {
     transform: scale(1.2);
+    
 }  
+p a {
+    text-decoration: solid;
+}
 @media (max-width:600px ) {
 .content {
 
@@ -71,5 +83,6 @@ body {
     height: 280px;
     width: 420px;
 }
+
 
 } 
